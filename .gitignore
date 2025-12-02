@@ -1,1 +1,7 @@
-input.txt
+# Since we are using Nix, it is not possible to use a file not tracked by git.
+# Thus, we need to create an empty input.txt, then use:
+# git update-index --skip-worktree dayX/input.txt
+# After that, we can add the inputs normally.
+
+# input.txt
+
